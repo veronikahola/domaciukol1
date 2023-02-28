@@ -1,0 +1,82 @@
+
+
+body{
+    background-color: #F7F7FF;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: normal;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: justify;
+    margin: 7% 0%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 16px;
+    margin: 0%;
+}
+
+h4
+
+header{
+    margin: 0%;
+    padding: 0%;
+}
+
+.columns {
+    display: table;
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  .column1 {
+    display: table-cell;
+    width: 20%;
+    color: #F7F7FF;
+    background-color: #586994;
+    padding: 2%;
+  }
+
+  .column2 {
+    display: table-cell; 
+    width: 40%;
+    background-color: #FFFBFF;
+    color: #453823;
+    padding: 2%;
+  }
+
+
+
+a{
+    font-style: italic;
+    color: #F7F7FF;
+}
+
+a:hover{
+    color: #F87060;
+}
+
+footer{
+    color: #F87060;
+    font-size: 16px;
+    margin: 0%;
+    text-align: center;
+    padding: 0%;
+}
+
+.marv{
+    width: 40%;
+    border: 3px solid #F7F7FF;
+    border-radius: 50%;
+    margin-left: 28%;
+}
+
