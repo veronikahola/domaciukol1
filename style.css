@@ -6,13 +6,14 @@ body{
     font-family: 'Montserrat', serif;
     text-align: justify;
     margin: 7% 0%;
-    line-height: 1,9; 
+    line-height: 1,9;    
 }
 
 h1,
 h2,
 h3{
     font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 2px;
 }
 
 h1{
@@ -23,12 +24,12 @@ h1{
 
 
 h2{
-    font-size: 22px;
+    font-size: 20px;
     margin: 7% 0% 0% 0%;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 15px;
     margin: 7% 0% 0% 0%;
 
 }
@@ -39,38 +40,40 @@ h3{
     margin-left: 20%;
   }
   
-  .column1 {
-    display: table-cell;
-    width: 20%;
-    color: #F7F7FF;
-    background-color: #586994;
-    padding: 2%;
-  }
+        .column1 {
+            display: table-cell;
+            width: 20%;
+            color: #F7F7FF;
+            background-color: #586994;
+            padding: 2%;
+        }
 
-  .column2 {
-    display: table-cell; 
-    width: 40%;
-    background-color: #FFFBFF;
-    color: #453823;
-    padding: 2%;
-    margin-top: 0%;
-    padding-top: 0%;
-  }
+        .column2 {
+            display: table-cell; 
+            width: 40%;
+            background-color: #FFFBFF;
+            color: #453823;
+            padding: 2%;
+            margin-top: 0%;
+            padding-top: 0%;
+        }
 
 a{
     font-style: normal;
     color: #F87060;
 }
 
-a:hover{
-    color:  #F7F7FF;
-}
+    a:hover{
+        color:  #F7F7FF;
+    }
+
 
 footer{
     color: #F87060;
     font-size: 16px;
     margin: 10% 0% 0% 0%;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .ja{
@@ -85,8 +88,13 @@ footer{
 .about{
     text-align: center;
     display: inline;
+    letter-spacing: 2px;
 }
 
 .column1 h2{
     margin-top:15%;
+}
+
+.education,{
+    text-align: left;
 }
