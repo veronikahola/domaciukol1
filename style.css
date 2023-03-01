@@ -3,33 +3,34 @@
 body{
     background-color: #F7F7FF;
     font-size: 15px;
-    line-height: 2;
-    font-weight: normal;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Montserrat', serif;
     text-align: justify;
     margin: 7% 0%;
+    line-height: 1,9; 
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 32px;
     text-align: center;
+    margin: 5% 0%
 }
 
 
 h2{
-    font-size: 25px;
+    font-size: 22px;
+    margin: 7% 0% 0% 0%;
 }
 
 h3{
     font-size: 16px;
-    margin: 0%;
-}
+    margin: 7% 0% 0% 0%;
 
-h4
-
-header{
-    margin: 0%;
-    padding: 0%;
 }
 
 .columns {
@@ -52,31 +53,40 @@ header{
     background-color: #FFFBFF;
     color: #453823;
     padding: 2%;
+    margin-top: 0%;
+    padding-top: 0%;
   }
 
-
-
 a{
-    font-style: italic;
-    color: #F7F7FF;
+    font-style: normal;
+    color: #F87060;
 }
 
 a:hover{
-    color: #F87060;
+    color:  #F7F7FF;
 }
 
 footer{
     color: #F87060;
     font-size: 16px;
-    margin: 0%;
+    margin: 10% 0% 0% 0%;
     text-align: center;
-    padding: 0%;
 }
 
-.marv{
-    width: 40%;
+.ja{
     border: 3px solid #F7F7FF;
     border-radius: 50%;
-    margin-left: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
+.about{
+    text-align: center;
+    display: inline;
+}
+
+.column1 h2{
+    margin-top:15%;
+}
